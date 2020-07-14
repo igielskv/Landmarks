@@ -31,6 +31,9 @@
 		9F6E0BBC24BBBF240072B3BA /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E0BB024BBBF240072B3BA /* hiddenlake.jpg */; };
 		9F6E0BBD24BBBF240072B3BA /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E0BB124BBBF240072B3BA /* turtlerock.jpg */; };
 		9F6E0BBE24BBBF240072B3BA /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E0BB224BBBF240072B3BA /* stmarylake.jpg */; };
+		9FA29CEB24BE08AB00202B4E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA29CEA24BE08AB00202B4E /* BadgeBackground.swift */; };
+		9FA29CED24BE097100202B4E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA29CEC24BE097100202B4E /* BadgeSymbol.swift */; };
+		9FA29CEF24BE0E5C00202B4E /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA29CEE24BE0E5C00202B4E /* RotatedBadgeSymbol.swift */; };
 		9FC59F4D24BB7F1600B77388 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59F4C24BB7F1600B77388 /* CircleImage.swift */; };
 		9FC59F4F24BB93E600B77388 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59F4E24BB93E600B77388 /* MapView.swift */; };
 		9FC9231024BD6C2F003D6013 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9230F24BD6C2F003D6013 /* LandmarkList.swift */; };
@@ -64,6 +67,9 @@
 		9F6E0BB024BBBF240072B3BA /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		9F6E0BB124BBBF240072B3BA /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		9F6E0BB224BBBF240072B3BA /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
+		9FA29CEA24BE08AB00202B4E /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		9FA29CEC24BE097100202B4E /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		9FA29CEE24BE0E5C00202B4E /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		9FC59F4C24BB7F1600B77388 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		9FC59F4E24BB93E600B77388 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9FC9230F24BD6C2F003D6013 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				9FC59F4C24BB7F1600B77388 /* CircleImage.swift */,
 				9FC59F4E24BB93E600B77388 /* MapView.swift */,
 				9F40364724BDE56A00DBA4C0 /* Badge.swift */,
+				9FA29CEC24BE097100202B4E /* BadgeSymbol.swift */,
+				9FA29CEE24BE0E5C00202B4E /* RotatedBadgeSymbol.swift */,
+				9FA29CEA24BE08AB00202B4E /* BadgeBackground.swift */,
 				9F40364924BDEBA600DBA4C0 /* HexagonParameters.swift */,
 				9F095CE524BB2C7600F10E61 /* Assets.xcassets */,
 				9F095CEA24BB2C7600F10E61 /* LaunchScreen.storyboard */,
@@ -248,7 +257,10 @@
 				9FC59F4D24BB7F1600B77388 /* CircleImage.swift in Sources */,
 				9FC59F4F24BB93E600B77388 /* MapView.swift in Sources */,
 				9FC9231024BD6C2F003D6013 /* LandmarkList.swift in Sources */,
+				9FA29CED24BE097100202B4E /* BadgeSymbol.swift in Sources */,
+				9FA29CEF24BE0E5C00202B4E /* RotatedBadgeSymbol.swift in Sources */,
 				9F095CE224BB2C7500F10E61 /* SceneDelegate.swift in Sources */,
+				9FA29CEB24BE08AB00202B4E /* BadgeBackground.swift in Sources */,
 				9F095CE424BB2C7500F10E61 /* LandmarkDetail.swift in Sources */,
 				9F6E0BA624BBBD150072B3BA /* LandmarkRow.swift in Sources */,
 				9FF6D12724BDAFD400720BF3 /* UserData.swift in Sources */,
