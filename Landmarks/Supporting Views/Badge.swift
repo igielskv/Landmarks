@@ -14,7 +14,7 @@ struct Badge: View {
     var badgeSymbols: some View {
         ForEach(0 ..< Badge.rotationCount) { i in
             RotatedBadgeSymbol(
-                angle: .degrees(Double(i) / Double(Badge.rotationCount)) * 360
+                angle: .degrees(Double(i) / Double(Badge.rotationCount)) * 360.0
             )
         }
         .opacity(0.5)
