@@ -49,6 +49,7 @@
 		9FC9231024BD6C2F003D6013 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC9230F24BD6C2F003D6013 /* LandmarkList.swift */; };
 		9FD5296A24BE30C500693341 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FD5296924BE30C500693341 /* hikeData.json */; };
 		9FD5296C24BE322800693341 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5296B24BE322800693341 /* HikeDetail.swift */; };
+		9FD5E36024C16D4500040EF8 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5E35F24C16D4500040EF8 /* ProfileEditor.swift */; };
 		9FF6D12724BDAFD400720BF3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6D12624BDAFD400720BF3 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,7 @@
 		9FC9230F24BD6C2F003D6013 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		9FD5296924BE30C500693341 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		9FD5296B24BE322800693341 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		9FD5E35F24C16D4500040EF8 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		9FF6D12624BDAFD400720BF3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +166,7 @@
 			children = (
 				9F0AC12624C01B5B005B3005 /* ProfileHost.swift */,
 				9F0AC12824C01F5E005B3005 /* ProfileSummary.swift */,
+				9FD5E35F24C16D4500040EF8 /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				9F0AC12924C01F5E005B3005 /* ProfileSummary.swift in Sources */,
 				9F9C3C7724BE2CA200C15A99 /* HikeGraph.swift in Sources */,
 				9FD5296C24BE322800693341 /* HikeDetail.swift in Sources */,
+				9FD5E36024C16D4500040EF8 /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
